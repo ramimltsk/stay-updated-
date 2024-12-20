@@ -1,0 +1,70 @@
+body{
+    background-color: hsl(235, 18%, 26%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.main{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    padding: 30px;
+    background-color: white;
+    padding-left: 60px ;
+    border-radius: 30px;
+}
+
+.main h1{
+    font-size: 50px;
+}
+
+.main p{
+    font-size:15px;
+}
+
+
+.lists div{
+    height: 40px;
+    align-items: center;
+}
+
+.list{
+    display: flex;
+    gap: 15px;
+}
+
+.email{
+    font-weight: 900;
+}
+
+.bottom{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.subs{
+    font-size: 17px ;
+}
+
+.emailinp{
+    padding: 20px;
+    font-size: 17px;
+    border-radius: 10px;
+    padding-right: 110px;
+}
+
+.subs{
+    background-color: hsl(234, 29%, 20%);
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+
+.imgmain{
+    height: 100%;
+}
+
